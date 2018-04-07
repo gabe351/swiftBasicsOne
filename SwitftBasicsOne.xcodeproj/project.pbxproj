@@ -15,6 +15,7 @@
 		04E7D02520791EBB00F615EA /* Sell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7D02420791EBB00F615EA /* Sell.swift */; };
 		04E7D0292079261D00F615EA /* JSONFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7D0282079261D00F615EA /* JSONFields.swift */; };
 		04E7D02B2079271500F615EA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7D02A2079271500F615EA /* Product.swift */; };
+		04E7D02E20792D6100F615EA /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7D02D20792D6100F615EA /* EndPoints.swift */; };
 		04EF22BA2079123E00153700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF22B92079123E00153700 /* AppDelegate.swift */; };
 		04EF22BC2079123E00153700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF22BB2079123E00153700 /* ViewController.swift */; };
 		04EF22BF2079123E00153700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF22BD2079123E00153700 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		04E7D02420791EBB00F615EA /* Sell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sell.swift; sourceTree = "<group>"; };
 		04E7D0282079261D00F615EA /* JSONFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFields.swift; sourceTree = "<group>"; };
 		04E7D02A2079271500F615EA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		04E7D02D20792D6100F615EA /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		04EF22B62079123E00153700 /* SwitftBasicsOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitftBasicsOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EF22B92079123E00153700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EF22BB2079123E00153700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		04E7D02C20792D5600F615EA /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				04E7D02D20792D6100F615EA /* EndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
 		04EF22AD2079123E00153700 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 		04EF22B82079123E00153700 /* SwitftBasicsOne */ = {
 			isa = PBXGroup;
 			children = (
+				04E7D02C20792D5600F615EA /* EndPoints */,
 				04E7D01B207912A600F615EA /* Enums */,
 				04E7D0182079126600F615EA /* Models */,
 				04EF22B92079123E00153700 /* AppDelegate.swift */,
@@ -263,6 +274,7 @@
 				04E7D02B2079271500F615EA /* Product.swift in Sources */,
 				04E7D01D207912B500F615EA /* PurchaseType.swift in Sources */,
 				04E7D01A2079129400F615EA /* Purchase.swift in Sources */,
+				04E7D02E20792D6100F615EA /* EndPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
